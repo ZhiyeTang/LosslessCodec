@@ -9,6 +9,7 @@ tqdm
 Pillow
 ```
 使用方法已于[LosslessCodec.ipynb](https://github.com/TongChiYip/LosslessCodec/LosslessCodec.ipynb)中给出。
+
 ---
 Requirements:
 ```
