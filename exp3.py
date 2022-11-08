@@ -6,7 +6,7 @@ from LosslessCodec import Decoder, Encoder
 
 for i in range(24):
     name = str(i+1).zfill(2)
-    print("正在处理[{}/{}]：".format(name, 24), end="")
+    print("正在处理[{}/{}]：".format(name, 24))
     img = Image.open("dataset/kodim{}.png".format(name))
 
     encoder = Encoder()

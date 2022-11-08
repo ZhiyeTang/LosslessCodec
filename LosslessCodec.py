@@ -73,9 +73,8 @@ class Encoder:
         for i in tqdm(range(len(sig)), "编码图像"):
             self.outer.out(huffman_dict[sig[i]])
 
+
 # 解码器的建立
-
-
 class Decoder:
     def __init__(self) -> None:
         pass
